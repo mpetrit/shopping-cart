@@ -1,0 +1,26 @@
+.homepage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  margin-top: 100px;
+  padding: 20px;
+}
+.homepage h3 {
+  font-size: 2rem;
+  display: flex;
+  text-align: center;
+}
+.homepage button {
+  background-color: white;
+  border: none;
+}
+.homepage a {
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+}
+.homepage a:hover {
+  text-decoration: none;
+  border-bottom: 1px solid;
+}

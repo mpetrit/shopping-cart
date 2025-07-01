@@ -1,0 +1,25 @@
+.shopping-cart {
+  display: flex;
+  padding: 50px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.checkout-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  max-width: 1000px;
+}
+.checkout-group {
+  border: 1px solid;
+  padding: 20px;
+  max-width: 300px;
+  width: 100%;
+  max-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 25px;
+  border-radius: 25px;
+}

@@ -1,0 +1,36 @@
+nav {
+  padding: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  color: white;
+  position: sticky;
+  top: 0;
+  background-color: var(--colorMain);
+  box-shadow: 2px 2px 2px gray;
+}
+nav button {
+  background-color: var(--colorMain);
+  border: none;
+}
+.nav-links {
+  display: flex;
+  gap: 25px;
+}
+.nav-links a,
+nav h1 a {
+  text-decoration: none;
+  color: white;
+
+  padding: 5px;
+}
+.nav-links a:hover {
+  border: 1px solid;
+  border-radius: 15px;
+}
+
+button h2 span {
+  color: rgb(255, 133, 133);
+}
